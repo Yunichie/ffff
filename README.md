@@ -17,3 +17,8 @@ An esolang inspired by absolutely no one important.
 |  `fffff`   | Input a number and push to stack                                    |
 |  `ffffff`  | Start a loop (if top of stack is 0, jump to matching `fffffff`)     |
 | `fffffff`  | End a loop (jump back to matching `ffffff` if top of stack isn't 0) |
+
+# Usage
+```
+cargo run filename.ffff
+```
